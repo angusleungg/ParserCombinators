@@ -1,0 +1,14 @@
+Arguments and keyword arguments can be string literals, floats, booleans, integers, or variable names.
+
+Function outputs can also be bound to variables.
+
+We can have functions with arbitrary args and kwargs. 
+
+> x = 1
+> y = function("a", 2, 2.4, x, True, kwarg1='b')
+> z = function(y)
+
+We can have methods and fields on functions.
+
+> x = function(2).method()
+> y = function(3).field.method()
